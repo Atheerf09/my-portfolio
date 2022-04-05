@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', arial;
+  background: #181824;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  background: #181824;
+}
+
+.nav-container a {
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  color: #7562E0;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+header nav ul a:hover {
+  color: #7562E0;
+}
+
+.hero-design {
+  display: none;
+}
+
+.hero {
+  background: #1A1A29;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  text-align: left;
+  padding: 4em;
+}
+
+.meet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.about-me-button {
+  padding: 12px 25px;
+  position: absolute;
+  width: 160px;
+  height: 48px;
+  left: 136px;
+  top: 543px;
+  /* Primary-colour */
+  border: 2px solid #7562E0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  position: static;
+  width: 80px;
+  height: 24px;
+  left: 25px;
+  top: 12px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 6px;
+}
+
+.projects-button {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 12px 34px;
+  position: absolute;
+  width: 159px;
+  height: 48px;
+  left: 328px;
+  top: 543px;
+  /* Primary-colour */
+  border: 2px solid #7562E0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  color: white;
+}
+
+.buttons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.buttons ul li {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.buttons ul a {
+  display: block;
+  padding: 12px 25px;
+  background: #7562E0;
+  border-radius: 8px;
+  color: white;
+  left: 328px;
+  top: 543px;
+}
+
+.buttons ul a:hover {
+  color: #1A1A29;
+}
+/*# sourceMappingURL=main.css.map */
