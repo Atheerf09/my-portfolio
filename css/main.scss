@@ -250,12 +250,16 @@ margin: 0px 6px;
             margin-top: -5em;
             margin-bottom: -7em;
             padding-top: 7em;
+          
 
         }
         .skills-container ul{
             display: flex;
             grid-template-columns: repeat(3,auto);
+         
             grid-gap: 1em;
+            
+            justify-content: center;
 
 
 
@@ -264,9 +268,7 @@ margin: 0px 6px;
     }
 
     @media only screen and (min-width:1200px){
-        .hero{
-            height: 90vh;
-        }
+       
         
         header{
             padding: 2em 2em 2em 4em;
@@ -280,15 +282,31 @@ margin: 0px 6px;
         }
         p{
             line-height: 1.2em;
+            
+            
+        }
+        .meet{
+            position: absolute;
+width: 435px;
+height: 81px;
+left: 136px;
+top: 433px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
         }
         .hero-design{
             display: unset;
             position: absolute;
 width: 450px;
 height: 604px;
-left: 0px;
-top: 0px;
-z-index: -1;
+left: 1000px;
+top: 98px;
+
 
         }
         
