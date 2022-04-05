@@ -153,14 +153,139 @@ header nav ul a:hover {
 .buttons ul a {
   display: block;
   padding: 12px 25px;
-  background: #7562E0;
   border-radius: 8px;
   color: white;
   left: 328px;
   top: 543px;
+  /* Primary-colour */
+  border: 2px solid #7562E0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
 }
 
 .buttons ul a:hover {
-  color: #1A1A29;
+  background: #7562E0;
+}
+
+.skills {
+  background: #1A1A29;
+  margin-top: 4em;
+}
+
+.skills-container ul li {
+  padding: 2em;
+  margin-bottom: 1em;
+  border: 3px solid #7562E0;
+  -webkit-filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+  border-radius: 16px;
+}
+
+.icon-container {
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.icon-container.one {
+  width: 50px;
+}
+
+.icon-container.two {
+  width: 100px;
+}
+
+.icon-container.three {
+  width: 100px;
+}
+
+.icon-container.four {
+  width: 100px;
+}
+
+.icon-container.five {
+  width: 100px;
+}
+
+.icon-container.six {
+  width: 100px;
+}
+
+.skills-container ul li .skills-title {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.skills-container ul li .skills-desc {
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+
+.about {
+  position: static;
+  width: 24px;
+  height: 24px;
+  left: 111px;
+  top: 20px;
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 6px;
+}
+
+@media only screen and (min-width: 768px) {
+  .skills {
+    margin-top: -5em;
+    margin-bottom: -7em;
+    padding-top: 7em;
+  }
+  .skills-container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero {
+    height: 90vh;
+  }
+  header {
+    padding: 2em 2em 2em 4em;
+  }
+  .content {
+    padding: 6em 8em 6em 4em;
+    text-align: left;
+  }
+  h1 {
+    line-height: 1.2em;
+  }
+  p {
+    line-height: 1.2em;
+  }
+  .hero-design {
+    display: unset;
+    position: absolute;
+    width: 450px;
+    height: 604px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
 }
 /*# sourceMappingURL=main.css.map */
